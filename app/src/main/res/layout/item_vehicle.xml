@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:transitionName="picture"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="Fiat Ducato"
+            android:transitionName="name"
+            android:textAppearance="@style/TextAppearance.Yescapa.Headline6Bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/price"
+            app:layout_constraintTop_toBottomOf="@id/picture"/>
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="70€/j"
+            android:textAppearance="?textAppearanceBody1"
+            android:transitionName="price"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/name"/>
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="Bordeaux"
+            android:textAppearance="?textAppearanceBody1"
+            android:layout_marginEnd="4dp"
+            android:transitionName="location"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/starsRecyclerView"
+            app:layout_constraintTop_toTopOf="@id/starsRecyclerView"
+            app:layout_constraintBottom_toBottomOf="@id/starsRecyclerView"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/starsRecyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="8dp"
+            android:transitionName="stars"
+            app:layout_constraintEnd_toStartOf="@id/reviewCount"
+            app:layout_constraintTop_toBottomOf="@id/price"/>
+
+        <TextView
+            android:id="@+id/reviewCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="32"
+            android:transitionName="reviewCount"
+            android:textAppearance="?textAppearanceBody1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/starsRecyclerView"
+            app:layout_constraintBottom_toBottomOf="@id/starsRecyclerView"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

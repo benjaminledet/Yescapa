@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="vehicles">Véhicules</string>
+    <string name="price">%1$.0f€/j</string>
+
+    <string name="van">Van</string>
+    <string name="coachBuilt">Camping-car</string>
+    <string name="vanOf">Van de %1$s</string>
+    <string name="coachBuiltOf">Camping-car de %1$s</string>
+
+    <string name="retry_descripton">Une erreur est survenue.</string>
+    <string name="retry_action">Réessayer</string>
+</resources>

@@ -1,0 +1,169 @@
+<resources>
+
+    <style name="AppTheme" parent="BaseAppTheme"/>
+
+    <style name="BaseAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/blueGrey</item>
+        <item name="colorPrimaryDark">@color/blueGrey</item>
+        <item name="colorPrimaryVariant">@color/blueGrey</item>
+        <item name="colorSecondary">@color/blueGrey</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorControlNormal">@android:color/white</item>
+
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:statusBarColor">?android:colorBackground</item>
+
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Yescapa.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Yescapa.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Yescapa.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Yescapa.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Yescapa.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Yescapa.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Yescapa.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Yescapa.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Yescapa.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Yescapa.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Yescapa.Caption</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Yescapa.Button</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Yescapa.Overline</item>
+
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Yescapa.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Yescapa.LargeComponent</item>
+
+        <item name="android:overScrollMode">never</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="appBarLayoutStyle">@style/Widget.Yescapa.AppBar</item>
+        <item name="materialCardViewStyle">@style/Widget.Budget.CardView</item>
+        <item name="toolbarStyle">@style/Widget.Yescapa.Toolbar</item>
+
+    </style>
+
+    <!-- ******************** TYPOGRAPHY ******************** -->
+
+    <style name="TextAppearance.Yescapa.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/source_sans_pro_light</item>
+        <item name="android:fontFamily">@font/source_sans_pro_light</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/source_sans_pro</item>
+        <item name="android:fontFamily">@font/source_sans_pro</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/source_sans_pro</item>
+        <item name="android:fontFamily">@font/source_sans_pro</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/source_sans_pro</item>
+        <item name="android:fontFamily">@font/source_sans_pro</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/source_sans_pro</item>
+        <item name="android:fontFamily">@font/source_sans_pro</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.Headline6Bold" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/source_sans_pro</item>
+        <item name="android:fontFamily">@font/source_sans_pro</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/source_sans_pro</item>
+        <item name="android:fontFamily">@font/source_sans_pro</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.Body1Selected" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/source_sans_pro</item>
+        <item name="android:fontFamily">@font/source_sans_pro</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/source_sans_pro</item>
+        <item name="android:fontFamily">@font/source_sans_pro</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.Toolbar" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+    </style>
+
+    <style name="TextAppearance.Yescapa.TabBar" parent="TextAppearance.Yescapa.Subtitle2">
+        <item name="fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+    </style>
+
+    <!-- ******************** SHAPE ******************** -->
+
+    <style name="ShapeAppearance.Yescapa.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Yescapa.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <!-- ******************** WIDGETS ******************** -->
+
+    <style name="Widget.Yescapa.AppBar" parent="Widget.MaterialComponents.AppBarLayout.Surface">
+        <item name="android:background">?android:colorBackground</item>
+    </style>
+
+    <style name="Widget.Budget.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+    <style name="Widget.Yescapa.Toolbar" parent="Widget.MaterialComponents.Toolbar.Surface">
+        <item name="android:background">?android:colorBackground</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Yescapa.Toolbar</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+</resources>

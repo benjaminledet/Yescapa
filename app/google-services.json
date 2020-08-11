@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "204897697009",
+    "firebase_url": "https://yescapa-44d3c.firebaseio.com",
+    "project_id": "yescapa-44d3c",
+    "storage_bucket": "yescapa-44d3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204897697009:android:15bc75e4f5337bb9127d50",
+        "android_client_info": {
+          "package_name": "com.benjaminledet.yescapa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204897697009-jouksg8j17r08crcb0dv1c8kf4b3n7no.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDiRpR7TXwbHkVZiKXzERG1i83LtAOMsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204897697009-jouksg8j17r08crcb0dv1c8kf4b3n7no.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204897697009:android:93387f4e6ee6447c127d50",
+        "android_client_info": {
+          "package_name": "com.benjaminledet.yescapa.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204897697009-jouksg8j17r08crcb0dv1c8kf4b3n7no.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDiRpR7TXwbHkVZiKXzERG1i83LtAOMsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204897697009-jouksg8j17r08crcb0dv1c8kf4b3n7no.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="BaseAppTheme.NotNight"/>
+
+    <style name="BaseAppTheme.NotNight" parent="BaseAppTheme">
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="colorControlNormal">@android:color/black</item>
+    </style>
+
+</resources>
