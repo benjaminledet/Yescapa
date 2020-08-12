@@ -20,9 +20,10 @@ android {
 dependencies {
     implementation(kotlin("stdlib-jdk7", KotlinCompilerVersion.VERSION))
 
-    androidTestImplementation(Dependencies.Tests.core)
-    androidTestImplementation(Dependencies.Tests.junit)
-    androidTestImplementation(Dependencies.Tests.runner)
+
+    testImplementation(Dependencies.Tests.junit)
+    androidTestImplementation(Dependencies.Tests.espresso)
+    androidTestImplementation(Dependencies.Tests.extJunit)
 
     implementation(platform(Dependencies.Kotlin.coroutinesBom))
     implementation(Dependencies.Kotlin.coroutinesCore)

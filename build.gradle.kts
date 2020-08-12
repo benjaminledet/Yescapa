@@ -65,6 +65,7 @@ fun LibraryExtension.applyCommons() {
         versionCode = Versions.versionCode
         versionName = Versions.versionName
         consumerProguardFile("proguard-rules.pro")
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     compileOptions.apply {
